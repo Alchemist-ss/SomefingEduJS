@@ -1,0 +1,87 @@
+@import "/gameMMOREF/css/nullstyle.css";
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #7e7e7e;
+  color: #fff;
+  width: 100%;
+
+  &__text-h1 {
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+.main {
+  margin: 20px auto;
+  max-width: 60%;
+  min-height: 100%;
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  &__text-h1 {
+    margin: auto 10px;
+  }
+
+  &__button-back {
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 5px 10px 5px 10px;
+    margin: auto 10px;
+  }
+
+  &__info-block {
+    background-color: #f0f0f0;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 15px;
+    margin-bottom: 20px;
+    user-select: none;
+  }
+
+  &__text-h2 {
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    font-size: 14px;
+  }
+
+  &__case-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__button-save {
+    color: #333;
+    background-color: #ececec;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px;
+
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: #fff;
+  background-color: #333;
+  width: 100%;
+
+  &__text {
+    margin: 20px;
+  }
+}

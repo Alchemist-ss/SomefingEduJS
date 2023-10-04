@@ -1,0 +1,106 @@
+@import url(nullstyle.css);
+
+body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #7e7e7e;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+main {
+  min-height: 100%;
+  margin: 20px auto;
+  max-width: 60%;
+}
+
+main section {
+  user-select: none;
+}
+
+main h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+main h2 {
+  padding-bottom: 15px;
+}
+
+.caseForButtonBack {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonForBack {
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  margin: 15px;
+  color: #333;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+.infoBlock {
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.infoBlockAboutYourPerson {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f0f0f0;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.caseForButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonForSave {
+  color: #333;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+}
+
+.correctiveIMG {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .infoBlock {
+    padding: 10px;
+  }
+}

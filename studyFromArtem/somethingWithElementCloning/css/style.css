@@ -1,0 +1,32 @@
+.case {
+  margin: 10px auto;
+  width: 470px;
+}
+.case__remove-button {
+  font-size: 110%;
+  color: darkred;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.case__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #edf5e1;
+  padding: 10px 20px 10px;
+  border-top: solid 2px #c3df9b;
+}
+.case__heading {
+  margin: 0;
+  padding-bottom: 0.3em;
+  font-size: 1.1em;
+}
+.case__text {
+  margin: 0;
+  padding: 0 0 0.5em;
+}

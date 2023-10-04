@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>WelCUM</h1>
+
+        <!-- Кнопка -->
+        <button class="btn"><a class="hrefOnRegPage" href="#">Kick Me</a></button>
+    </header>
+
+    <main class="main">
+        <p>Something about site</p>
+
+        <!-- Слайдер -->
+        <div class="slider">
+            <div class="slides">
+                <div class="slide" id="slide1">
+                    <img src="img/image1.jpg" alt="Slide 1">
+                </div>
+                <div class="slide" id="slide2">
+                    <img src="img/image2.jpg" alt="Slide 2">
+                </div>
+                <div class="slide" id="slide3">
+                    <img src="img/image3.jpg" alt="Slide 3">
+                </div>
+            </div>
+            <!-- Кнопочки для слайдера -->
+            <div class="buttonSlaid">
+                <input type="radio" name="slide" class="slide-choice" data-slide="slide1">
+                <input type="radio" name="slide" class="slide-choice" data-slide="slide2">
+                <input type="radio" name="slide" class="slide-choice" data-slide="slide3">
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2023 My Website. All rights reserved.</p>
+    </footer>
+    <script src="main.js"> </script>
+</body>
+
+</html>

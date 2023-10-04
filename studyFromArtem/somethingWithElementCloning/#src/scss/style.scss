@@ -1,0 +1,31 @@
+.case {
+  margin: 10px auto;
+  width: 470px;
+
+  &__remove-button {
+    font-size: 110%;
+    color: darkred;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    background-color: #edf5e1;
+    padding: 10px 20px 10px;
+    border-top: solid 2px #c3df9b;
+  }
+
+  &__heading {
+    margin: 0;
+    padding-bottom: .3em;
+    font-size: 1.1em;
+  }
+
+  &__text {
+    margin: 0;
+    padding: 0 0 .5em;
+  }
+}

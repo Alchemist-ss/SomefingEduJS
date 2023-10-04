@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>My Legendary Game</title>
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="header__title">Welcome to your Game</h1>
+  </header>
+
+  <main class="main">
+    <div class="main__case-for-button-back">
+      <h1 class="main__select-title">Select your person
+        <a class="main__button-for-back" href="#" onclick="javascript:history.back(); return false">Back</a>
+      </h1>
+    </div>
+    <section class="main__info-block" id="person">
+      <h2 class="main__info-title">Your person</h2>
+      <p class="main__info-text">Level 1. No abilities</p>
+    </section>
+
+    <section class="main__info-block" id="pet">
+      <h2 class="main__info-title">Your pet</h2>
+      <p class="main__info-text">Level 1. No abilities</p>
+    </section>
+    <div class="main__case-for-button">
+      <a onclick="processingHref()" class="main__button-for-save" href="#">Save and next</a>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__copyright">&copy; 2023 My Website. All rights reserved.</p>
+  </footer>
+
+  <script src="acitonsGame.js"></script>
+</body>
+
+
+<body>
+  <header>
+    <h1>Welcome to your Game</h1>
+  </header>
+
+  <main>
+    <div class="caseForButtonBack">
+      <h1> Select your person
+        <a class="buttonForBack" href="#" onclick="javascript:history.back(); return false"> Back </a>
+      </h1>
+    </div>
+    <section class="infoBlock" id="person">
+      <h2>Your person</h2>
+      <p>Level 1. No abilities</p>
+    </section>
+
+    <section class="infoBlock" id="pet">
+      <h2>Your pet</h2>
+      <p>Level 1. No abilities</p>
+    </section>
+    <div class="caseForButton">
+      <a onclick="processingHref()" class="buttonForSave" href="#">Save and next</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 My Website. All rights reserved.</p>
+  </footer>
+
+  <script src="acitonsGame.js"></script>
+</body>
+
+</html>

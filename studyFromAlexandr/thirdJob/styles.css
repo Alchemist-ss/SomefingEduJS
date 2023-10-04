@@ -1,0 +1,66 @@
+.building {
+  width: 800px;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.left {
+  background-image: url("building.png");
+  background-size: contain;
+  width: 300px;
+  height: 500px;
+}
+
+.right {
+  background-image: url("building.png");
+  background-size: contain;
+  width: 300px;
+  height: 500px;
+}
+
+.caseForAirplain {
+  position: absolute;
+  right: 0;
+  top: 100px;
+}
+
+.airplain {
+  width: 300px;
+  height: 150px;
+  background-size: contain;
+  background-image: url("airplain.png");
+  background-repeat: no-repeat;
+
+  position: absolute;
+  /* Добавлено позиционирование */
+  top: 0;
+  /* Начальное положение по вертикали */
+  right: -10px;
+  /* Начальное положение по горизонтали */
+
+  animation-name: airplainPath;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes airplainPath {
+  0% {
+    right: 0;
+  }
+
+  50% {
+    /* Промежуточное положение по горизонтали */
+  }
+
+  100% {
+    right: 1400px;
+    width: 300px;
+    height: 500px;
+    background-image: url('https://media.tenor.com/igZCc-gVpjsAAAAi/%D0%B2%D0%B7%D1%80%D1%8B%D0%B2.gif');
+    background-repeat: no-repeat;
+  }
+}
